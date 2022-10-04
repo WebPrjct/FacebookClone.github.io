@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER STARTS -->
+    <div class="header">
+        <div class="header__left">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" alt="">
+
+            <div class="header__input">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="header__middle">
+            <div class="header__option active">
+                <span class="material-symbols-outlined">
+                    home
+                </span>
+            </div>
+            <div class="header__option">
+                <span class="material-symbols-outlined">
+                    flag
+                </span>
+            </div>
+            <div class="header__option">
+                <span class="material-symbols-outlined">
+                    subscriptions
+                </span>
+            </div>
+            <div class="header__option">
+                <span class="material-symbols-outlined">
+                    storefront
+                </span>
+            </div>
+            <div class="header__option">
+                <span class="material-symbols-outlined">
+                    supervised_user_circle
+                </span>
+            </div>
+        </div>
+        <div class="header__right">
+            <div class="header__info">
+                <img class="user__avatar" src="./images/avatar.png" alt="">
+                <h4>David Roser</h4>
+            </div>
+            <span class="material-symbols-outlined">
+                add
+            </span>
+            <span class="material-symbols-outlined">
+                forum
+            </span>
+            <span class="material-symbols-outlined">
+                notifications_active
+            </span>
+            <span class="material-symbols-outlined">
+                expand_more
+            </span>
+
+        </div>
+    </div>
+    <!-- HEADER ENDS -->
+
+    <!-- MAIN BODY STARTS -->
+    <div class="main__body">
+        <!-- side bar starts -->
+        <div class="sidebar">
+            <div class="sidebarRow">
+                <img class="user__avatar" src="./images/avatar.png" alt="">
+                <h4>David Roser</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    local_hospital
+                    </span>
+                    <h4>Covid 19 Information Center</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    emoji_flags
+                    </span>
+                    <h4>Pages</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    group
+                    </span>
+                    <h4>People</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    chat
+                    </span>
+                    <h4>Messenger</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    storefront
+                    </span>
+                    <h4>Marketplace</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    video_library
+                    </span>
+                    <h4>Videos</h4>
+            </div>
+            <div class="sidebarRow">
+                <span class="material-symbols-outlined">
+                    expand_more
+                    </span>
+                    <h4>More</h4>
+            </div>
+        </div>
+        <!-- side bar ends -->
+        <!-- feed starts -->
+        <div class="feed">
+            <!-- story starts -->
+            <div class="storyReel">
+                <div style="background-image: url('./images/image2.jpg') ;" class="story">
+                    <img class="user__avatar story__avatar" src="./images/avatar.png" alt="">
+                    <h4>David Roser</h4>
+                </div>
+                <div style="background-image: url('./images/image2.jpg') ;" class="story">
+                    <img class="user__avatar story__avatar" src="./images/avatar.png" alt="">
+                    <h4>David Roser</h4>
+                </div>
+                <div style="background-image: url(./images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./images/avatar.png" alt="">
+                    <h4>David Roser</h4>
+                </div>
+                <div style="background-image: url(./images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./images/avatar.png" alt="">
+                    <h4>David Roser</h4>
+                </div>
+                <div style="background-image: url(./images/image2.jpg) ;" class="story">
+                    <img class="user__avatar story__avatar" src="./images/avatar.png" alt="">
+                    <h4>David Roser</h4>
+                </div>
+            </div>
+            <!-- story ends -->
+
+            <!-- messege seneder starts -->
+            <div class="messegeSender">
+                <div class="messegeSender__top">
+                    <img class="user__avatar" src="./images/avatar.png" alt="">
+                    <form><input type="text" class="messegeSender__input" placeholder="What's on your mind?"></form>
+                </div>
+                <div class="messege__bottom">
+                    <div class="messegeSender__option">
+                        <span style="color: red" class="material-symbols-outlined">
+                            videocam
+                            </span>
+                            <h3>Live</h3>
+                    </div>
+                    <div class="messegeSender__option">
+                        <span style="color: green" class="material-symbols-outlined">
+                            photo_library
+                            </span>
+                            <h3>Photo</h3>
+                    </div>
+                    <div class="messegeSender__option">
+                        <span style="color: orange" class="material-symbols-outlined">
+                            mood
+                            </span>
+                            <h3>Feeling</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- MESSEGE SENDER ENDS -->
+
+            <!-- POST STARTS -->
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./images/avatar.png" alt="">
+                    <div class="post__topInfo">
+                        <h3>David Roser</h3>
+                        <p>28 April at 20:30</p>
+                    </div>
+                </div>
+                <div class="post__bottom">
+                    <p>Messege</p>
+                </div>
+                <div class="post__image">
+                    <img src="./images/post1.jpg" alt="">
+                </div>
+
+                <div class="post__option">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./images/avatar.png" alt="">
+                    <div class="post__topInfo">
+                        <h3>David Roser</h3>
+                        <p>28 April at 20:30</p>
+                    </div>
+                </div>
+                <div class="post__bottom">
+                    <p>Messege</p>
+                </div>
+                <!-- <div class="post__image">
+                    <img src="./images/post1.jpg" alt="">
+                </div> -->
+
+                <div class="post__option">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./images/avatar.png" alt="">
+                    <div class="post__topInfo">
+                        <h3>David Roser</h3>
+                        <p>28 April at 20:30</p>
+                    </div>
+                </div>
+                <div class="post__bottom">
+                    <p>Messege</p>
+                </div>
+                <div class="post__image">
+                    <img src="./images/post1.jpg" alt="">
+                </div>
+
+                <div class="post__option">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./images/avatar.png" alt="">
+                    <div class="post__topInfo">
+                        <h3>David Roser</h3>
+                        <p>28 April at 20:30</p>
+                    </div>
+                </div>
+                <div class="post__bottom">
+                    <p>Messege</p>
+                </div>
+                <div class="post__image">
+                    <img src="./images/post1.jpg" alt="">
+                </div>
+
+                <div class="post__option">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post__top">
+                    <img class="user__avatar post__avatar" src="./images/avatar.png" alt="">
+                    <div class="post__topInfo">
+                        <h3>David Roser</h3>
+                        <p>28 April at 20:30</p>
+                    </div>
+                </div>
+                <div class="post__bottom">
+                    <p>Messege</p>
+                </div>
+                <div class="post__image">
+                    <img src="./images/post1.jpg" alt="">
+                </div>
+
+                <div class="post__option">
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            thumb_up
+                            </span>
+                            <p>Like</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            chat_bubble
+                            </span>
+                            <p>Comment</p>
+                    </div>
+                    <div class="post__option">
+                        <span class="material-symbols-outlined">
+                            near_me
+                            </span>
+                            <p>Share</p>
+                    </div>
+                </div>
+            </div>
+            <!-- POST ENDS -->
+        </div>
+        <!-- feed ends -->
+
+        <div class="widgets">
+            <div style="flex: 0.31" class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="500" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+        </div>
+    </div>
+    <!-- MAIN BODY ENDS -->
+
+
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v15.0" nonce="go2CeXJu"></script>
+</body>
+
+</html>
